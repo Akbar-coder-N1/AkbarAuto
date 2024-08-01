@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("particle/head") %>
+<body>
+    <%- include("particle/header") %>
+    <form action="/addcar" method="POST" enctype="multipart/form-data" class="add-car">
+        <div class="Name">
+        <label for="name">Moshina nomi</label><input type="text" name="name" class="Name2">
+        </div>
+        <div>
+            <label for="mileage">Probegi</label><input type="text" name="mileage">
+        </div>
+        <div>
+            <label for="price">Narxi</label><input type="number" name="price">
+        </div>
+        <label class="input-file">
+            <input type="file" name="file">
+             <span class="input-file-btn">Выберите файл</span>           
+            <span class="input-file-text">Максимум 10мб</span>
+      </label>
+      <div class="clear">
+        <label for="submit">
+            <input type="submit" class="submit" value="Сохранить">
+            <input type="reset" class="reset" value="Сбросить">
+          </label>
+      </div>
+        
+    </form>
+    <%- include("particle/footer") %>
+</body>
+</html>

@@ -1,0 +1,9 @@
+label{
+    transform: translate(-20px,20px);
+}
+.submit{
+    transform: translate(-40px,20px);
+}
+.reset{
+    transform: translate(3px,27px);
+}

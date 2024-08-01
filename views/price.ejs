@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("particle/head") %>
+<body>
+    <%- include("particle/header") %>
+    <main>
+        <% if(price){%>
+            <% price.forEach(avto => { %>
+                <a href="/price/<%=avto.ID%>" class="car">  
+                    <div>
+                        <img src="/uploads/<%=avto.img%>" alt="<%= avto.name %>">
+                        <p class="about"><%= avto.about %></p>
+                        <p class="name"><%= avto.name %></p>
+                        <p class="probeg"><%= avto.mileage%></p>
+                        <p class="price"><%= avto.price %></p>
+                    </div>
+                </a>
+            <% }) %>
+        <%}%>
+    </main>
+    <%- include("particle/footer") %>
+</body>
+</html>
