@@ -22,11 +22,11 @@ Empty set (0.00 sec)
 
 mysql> CREATE TABLE price (
     -> ID int NOT NULL AUTO_INCREMENT, 
-    -> name VARCHAR(32) NOT NULL,
+    ->  name VARCHAR(32) NOT NULL,
     -> mileage MEDIUMINT UNSIGNED NOT NULL,
     -> price INT UNSIGNED,
-    -> PRIMARY KEY (ID)                   
-    -> );
+    ->  PRIMARY KEY (ID)                   
+    -> );           
 Query OK, 0 rows affected (0.05 sec)
 
 mysql> INSERT INTO price VALUES("0","BMW",152000,16000);
@@ -38,4 +38,6 @@ mysql> SELECT * FROM price;
 +----+------+---------+-------+
 |  1 | BMW  |  152000 | 16000 |
 +----+------+---------+-------+
-1 row in set (0.00 sec)
+
+ALTER TABLE about;
+MODIFY COLUMN about BIGINT;

@@ -39,7 +39,7 @@ main{
     padding: 6px;
 }
 .name1{
-    transform: translate(0px,150px);
+    transform: translate(0px,0px);
 }
 header{
     background-color: greenyellow;
@@ -49,7 +49,7 @@ header{
     top: 0;
 }
 .mileage2{
-    transform: translate(0px,150px);
+    transform: translate(0px,140px);
 }
 footer{
     background-color: greenyellow;
@@ -155,16 +155,33 @@ p{
 	width: 0;
 	height: 0;
 }
-
+.car3{
+    transform: translate(690px,200px);
+    background-color:crimson;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
 /* Focus */
 .add-car input[type=file]:focus + .input-file-btn {
 	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
 
+.text4{
+    transform: translate(600px,170px);
+}
 /* Hover/Active */
 .add-car .input-file:hover .input-file-btn {
 	background-color: #59be6e;
 }
+.car2{
+    transform: translate(605px,185px);
+}
+
+.text3{
+    transform: translate(605px,185px);
+}
+
 .add-car .input-file:active .input-file-btn {
 	background-color: #2E703A;
 }
@@ -176,6 +193,21 @@ p{
 input[type=submit]{
     float: none;
 }
+
+.text5{
+    transform: translate(690px,200px);
+    background-color:crimson;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
 a{
     display: block;
+}
+.help{
+    transform: translate(0px,210px);
+}
+.car1{
+    transform: translate(600px,180px);
 }

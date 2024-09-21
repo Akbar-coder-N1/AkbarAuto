@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("particle/head") %>
+<body>
+    <%- include("particle/header") %>
+<form action="/signup" method="post">
+    <section  class="text4">
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" autocomplete="username" required>
+    </section>
+    <section class="text3">
+        <label for="new-password">Password</label>
+        <input id="new-password" name="password" type="password" autocomplete="new-password" required>
+    </section>
+    <button type="submit" class="text5">Sign up</button>
+    <%- include("particle/footer") %>
+</form>
+</body>
+</html>

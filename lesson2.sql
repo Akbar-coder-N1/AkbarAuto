@@ -4,3 +4,6 @@ ADD column_name datatype;
 
 ALTER TABLE price
 ADD img VARCHAR(32);
+
+
+mysqldump -u root -p automobile > OUTPUT_FILE.sql
